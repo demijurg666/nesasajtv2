@@ -392,3 +392,57 @@ nav a:hover {
 .footer .fa a {
   color: black;
 }
+
+/*responsive*/
+
+@media only screen and (max-width: 1000px) {
+  nav {
+    font-size: 20px !important;
+    text-align: right !important;
+  }
+  #toggler {
+    background-color: black !important;
+  }
+
+  .jeziciImg {
+    width: 50px;
+    height: 20px;
+  }
+  #paralaxTekst {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  .izdavastvo #slikaIzdavastvo {
+    width: 300px;
+    height: 300px;
+  }
+
+  #kursTekst {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  #priceSaTerenaText {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  #pecanjeText {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+  }
+  .pesme img {
+    width: 300px;
+    height: 300px;
+  }
+  iframe {
+    width: 400px !important;
+    height: 400px !important;
+  }
+}
