@@ -22,7 +22,7 @@ body {
 
 nav {
   background-color: #838060 !important;
-  font-size: 30px !important;
+  font-size: 25px !important;
   position: sticky !important;
   top: 0 !important;
   z-index: 99;
@@ -68,16 +68,25 @@ nav a:hover {
   padding: 0;
 }
 
+.headerOverlay {
+  height: 130vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  background: #225470;
+  z-index: 1;
+  opacity: 0.65;
+}
+
 .textDiv {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 130vh;
 }
 
 #paralaxTekst {
-  font-size: 30px;
   color: white;
   padding: 8px 24px;
   margin: 0 300px 0 300px;
@@ -86,13 +95,14 @@ nav a:hover {
 
 #paralaxTekst h2 {
   text-align: center;
+  font-size: 25px;
   font-weight: 900;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 20px 0;
 }
 
 #paralaxTekst p {
   padding-left: 25px;
-  font-size: 25px;
+  font-size: 20px;
 }
 #paralaxTekst h3 {
   text-decoration: underline;
@@ -135,11 +145,11 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 130vh;
 }
 
 #kursTekst {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   padding: 8px 24px;
   border-radius: 16px;
@@ -151,16 +161,6 @@ nav a:hover {
   background-image: url("images/nesaprofesor.jpg");
   background-size: cover;
   background-attachment: fixed;
-}
-
-.headerOverlay {
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  left: 0;
-  background: #225470;
-  z-index: 1;
-  opacity: 0.65;
 }
 
 #kursNaslov {
@@ -239,11 +239,11 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 130vh;
 }
 
 #priceSaTerenaText {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   padding: 8px 24px;
   border-radius: 16px;
@@ -294,11 +294,11 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 130vh;
 }
 
 #pecanjeText {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   padding: 8px 24px;
   border-radius: 16px;
@@ -478,7 +478,7 @@ nav a:hover {
     height: 300px;
   }
   iframe {
-    width: 400px !important;
-    height: 400px !important;
+    width: 300px !important;
+    height: 300px !important;
   }
 }
