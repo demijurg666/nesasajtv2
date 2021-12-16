@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
 html {
   scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Arvo", serif;
+  font-family: "Arvo", serif;
+  font-family: "Arvo", serif;
+  font-family: "Arvo", serif;
 }
 
 body {
@@ -68,12 +77,26 @@ nav a:hover {
 }
 
 #paralaxTekst {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   padding: 8px 24px;
-  border-radius: 16px;
   margin: 0 300px 0 300px;
   z-index: 2;
+}
+
+#paralaxTekst h2 {
+  text-align: center;
+  font-weight: 900;
+  padding: 10px 0 10px 0;
+}
+
+#paralaxTekst p {
+  padding-left: 25px;
+  font-size: 25px;
+}
+#paralaxTekst h3 {
+  text-decoration: underline;
+  padding: 5px 0 5px 0;
 }
 
 #prviDiv {
@@ -125,7 +148,7 @@ nav a:hover {
 }
 
 #kursDiv {
-  background-image: url("images/profesor.jpg");
+  background-image: url("images/nesaprofesor.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -395,25 +418,38 @@ nav a:hover {
 
 /*responsive*/
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   nav {
     font-size: 20px !important;
     text-align: right !important;
   }
   #toggler {
-    background-color: black !important;
+    border: 1px black solid;
   }
 
   .jeziciImg {
     width: 50px;
-    height: 20px;
+    height: 10px;
   }
+
   #paralaxTekst {
-    font-size: 20px;
-    padding: 10px;
-    margin: 0;
-    text-align: center;
+    padding: 5px 0 0 0;
+    margin: 0 0 0 5px;
   }
+
+  #paralaxTekst h2 {
+    font-size: 20px;
+    padding-top: 50px;
+  }
+
+  #paralaxTekst h3 {
+    font-size: 13px;
+  }
+
+  #paralaxTekst p {
+    font-size: 15px;
+  }
+
   .izdavastvo #slikaIzdavastvo {
     width: 300px;
     height: 300px;

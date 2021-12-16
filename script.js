@@ -39,7 +39,7 @@ function engleski(){
     kursPrevedi.innerHTML = 'Course';
     mlinPrevedi.innerHTML = 'Mill';
     pricePrevedi.innerHTML = 'Stories from the field';
-    trgovinaPrevedi.innerHTML = 'Tradeing';
+    trgovinaPrevedi.innerHTML = 'Trading';
     pecanjePrevedi.innerHTML = 'Fishing';
     pesmePrevedi.innerHTML = 'Songs';
     kontaktPrevedi.innerHTML = 'Contacts';
